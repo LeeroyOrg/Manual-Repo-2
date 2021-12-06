@@ -11,9 +11,6 @@ jobs:
       - name: Echo a string
         run: echo "Hello World!!!"
 
-      - name: Echo a string
-        run: echo "Hello World again"
-
       - name: Multiline script
         run: |
           node -v
