@@ -1,0 +1,11 @@
+name: Test Build and Apply
+
+on: [push]
+
+jobs:
+  BuildAndApply:
+    name: Build and Apply Test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo a string
+        run: echo "Hello World!!!"
